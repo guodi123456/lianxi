@@ -53,8 +53,19 @@ clear清屏
 查看所有版本 git log
 
 回退版本
-  git reset --hard HEAD^
+  git reset --hard HEAD^  #回退到上一版本
   git reset --hard 版本号
+
+让git管理空文件夹，在空文件夹，创建.gitkeep文件
+.gitkeep==这个文件为了给空文件夹站位
+
+git管理忽略文件，.gitignore
+
+远程仓库：码云 ，github
+
+git remote add origin 远程仓库地址
+git remote add origin https://gitee.com/qweassa/a12.git
+git push -u origin master
 
 
 
